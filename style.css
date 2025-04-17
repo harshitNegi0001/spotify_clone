@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: black;
+    color: white; */
+}
+.logo img{
+    width: 20px;
+    margin-right: 10px;
+}
+.logo {
+    
+    color: white;
+    font-size:20px;
+}
+.left{
+    position: relative;
+    height: 95vh;
+    padding: 10px;
+    width: 30vw;
+    background-color: rgb(31, 30, 30);
+}
+
+.home ul li {
+    width: 15px;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding-top: 15px;
+    
+}
+.library{
+    position: relative;
+}
+.library div img{
+    position:absolute;
+    right: 10px;
+    width: 15px;
+    
+}
+.fix-left{
+    position: absolute;
+    bottom:100px;
+    display: flex;
+    font-size: 12px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(31, 30, 30);
+}
+.right{
+    width: 70vw;
+}

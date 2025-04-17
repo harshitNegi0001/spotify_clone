@@ -1,0 +1,47 @@
+.border{
+    border : 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justi-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-gray{
+    background-color: rgb(44, 44, 44);
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m1{
+    margin: 5px;
+}
+.m2{
+    margin-top: 15px;
+}
+.p1{
+    padding: 10px;
+}
+.btn1{
+    border-radius: 25px;
+    border: none;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    text-decoration: none;
+    color: gray;
+}
+
